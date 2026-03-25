@@ -38,7 +38,7 @@ Data Cleaning & Transformation
 
 ### 📸 Screenshot
 
-![S3 Upload](images/s3.png)
+![S3 Upload](image/s3.png)
 
 ---
 
@@ -102,7 +102,7 @@ def lambda_handler(event, context):
 
 ### 📸 Screenshot
 
-![Databricks Load](images/databricks_load.png)
+![Databricks Load](image/databricks_load.png)
 
 ---
 
@@ -116,7 +116,7 @@ def lambda_handler(event, context):
 
 ### 📸
 
-![Uppercase Name](images/name_upper.png)
+![Uppercase Name](image/name_upper.png)
 
 ---
 
@@ -127,9 +127,9 @@ def lambda_handler(event, context):
 
 ### 📸
 
-![Missing Values - Contact](images/missing_contact.png)
+![Missing Values - Contact](image/missing_contact.png)
 
-![Missing Values - Pincode](images/missing_pincode.png)
+![Missing Values - Pincode](image/missing_pincode.png)
 
 ---
 
@@ -140,7 +140,17 @@ def lambda_handler(event, context):
 
 ### 📸
 
-![Age Calculation](images/age.png)
+![Date of Birth](image/date_of_birth.png)
+
+---
+
+### 🔹 4. Age Calculation
+
+* Created `age` column from DOB
+
+### 📸
+
+![Age Calculation](image/age.png)
 
 ---
 
@@ -152,7 +162,7 @@ def lambda_handler(event, context):
 
 ### 📸
 
-![Gender](images/gender.png)
+![Gender](image/gender.png)
 
 ---
 
@@ -165,7 +175,7 @@ def lambda_handler(event, context):
 
 ### 📸
 
-![Blood Type](images/blood.png)
+![Blood Type](image/blood.png)
 
 ---
 
@@ -176,7 +186,7 @@ def lambda_handler(event, context):
 
 ### 📸
 
-![Disease Count](images/disease.png)
+![Disease Count](image/disease.png)
 
 ---
 
@@ -191,7 +201,7 @@ def lambda_handler(event, context):
 
 ### 📸
 
-![Policy](images/policy.png)
+![Policy](image/policy.png)
 
 ---
 
@@ -245,10 +255,10 @@ This project demonstrates practical knowledge of:
 
 ## 📌 Image Reference
 
-Place your screenshots in an `images/` folder alongside this README:
+Place your screenshots in an `image/` folder alongside this README:
 
 ```
-images/
+image/
  ├── s3.png
  ├── databricks_load.png
  ├── name_upper.png
